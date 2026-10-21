@@ -32,4 +32,5 @@ jobs:
           Plugin compilado automáticamente mediante GitHub Actions desde el código fuente del fork.
         draft: false
         prerelease: false
-        files: target/*.jar # Maven por defecto guarda el archivo compilado aquí
+        files: bukkit/target/*.jar
+        
